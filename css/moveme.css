@@ -25,3 +25,12 @@ hr {
 .info small {
     color: #eeefe9;
 }
+.info a {
+    color: #fff;
+}
+.info a:hover {
+    counter-reset: #333;
+}
+.tab-pane {
+    padding: 40px 10px 0 10px;
+}
