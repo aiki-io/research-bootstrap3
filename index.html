@@ -1,6 +1,6 @@
 <!doctype <!DOCTYPE html>
     <meta charset="utf-8" />
-    <title>Learning Bootstrap</title>
+    <title> MOVE ME</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -40,7 +40,13 @@
                 </ul>
             </div>
         </nav>
-        <div id="nyCarousel" class="carousel slide">
+        <!-- End navigation -->
+        <div id="myCarousel" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
                 <div class="item active">
                     <img src="images/slide1.jpg">
@@ -80,8 +86,10 @@
                     </div>
 
             </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+ 
         </div>
-        <!-- End navigation -->
         <!-- End carousel -->
         <div class="intro-block">
             <div class="container">
