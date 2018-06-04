@@ -42,9 +42,15 @@ b, strong {
 .tpad {
     padding-top: 20px;
 }
+
+.padded {
+    padding: 100px 15px;
+}
+
 .marketing {
     background-color: #e9e6df;
 }
+
 hr {
     border-top: 1px solid #c9c9c9;
 }
