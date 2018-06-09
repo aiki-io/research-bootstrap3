@@ -60,13 +60,61 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.537670637706!2d-79.67238654847026!3d43.44937097350157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b5c9361d881a7%3A0x9ea93befc5dcd35!2sOakville+Medical+Centre!5e0!3m2!1sen!2sus!4v1528575735930" width="100%" height="300" frameborder="0" style="border:0"></iframe>
                 <br/>
             </div>
-        <div class="container">
+        <div class="container padding">
             <div class="row">
                 <div class="col-sm-8">
+                    <h2>Get in touch</h2>
+                    <hr>
+                    <p>Meed a quote, enquiry about our team creating your App or have a suggestion for
+                        the <strong>Meve Me</strong> App, we need to hear from you!
+                    </p>
+                    <form class="form form-horizontal tpad" role="form">
+                        <div class="form-group">
+                            <label for="email" class="col-lg-2" control-label>Email</label>
+                            <div class="col-lg-10">
+                                <input type="email" class="form-control" id="email" placeholder="Email">
 
+                            </div>
+                        </div>
+                        <div class="form-group tpad">
+                            <label for="message" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea class="form-control" rows="6" id="message" placeholder="Message..."></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group tpad">
+                                <div class="col-lg-offset-2 col-lg-10">
+                                    <a data-toggle="modal" href="#myModal" class="btn btn-default btn-lg">Send</a>
+                                </div>
+                            </div>
+                    </form>
+                </div>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="model-header">
+                                <button class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h3 class="modal-title">Thank you for submitting</h3>
+                            </div>
+                            <div class="modal-body">
+                                <p>We appreciate for getting in touch. Please be patient, we will contact you shortly.</p>
+                                <p>The Move Me team</p>    
+                            </div>
+                            <div class="modal-footer">
+                                <a href="index.html" class="btn btn-default btn-lg">OK</a>    
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-sm-4">
-
+                    <img class="img-circle img-responsive" src="images/office.jpg">
+                    <hr>
+                    <address>
+                        MOVE ME
+                        One Microsoft Way, Redmond WA 98052
+                        <a href="mailto:hello@moveme.com">hello@moveme.com</a><br>
+                        <abbr title="Phone">P:</abbr>906-4567
+                    </address>
                 </div>
             </div>
         </div>
